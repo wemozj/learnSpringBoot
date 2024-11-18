@@ -11,7 +11,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         log.info("hello");
-        return "hello";
+        return "hello spring";
     }
 
 }
